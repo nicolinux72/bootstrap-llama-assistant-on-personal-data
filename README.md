@@ -1,4 +1,7 @@
 # Bootstrap a LLaMa assistant on personal data
+How to quickly fine tuning a LLM so that it responds about private data also.
+
+![Kindly created by stable diffusion XL](LLaMa.png)
 
 In this second article, still aimed at beginners, we will enrich our AI chatbot with personal documents, such as PDFs on our laptop, so that it can respond even to topics for which it has not been pretrained, e.g. business know how. Confidentiality requirements, which we were inspired by, will remain so we will continue to use a local running LLM (Large Language Model), that is, without any calls to external APIs or licensing fees.
 We will get familiar with LangChain, a well-maintained library that implements an abstraction on functionality common to all Natural Language Processing (NLP) applications such as, for example, using an LLM through different runtimes or enriching its knowledge base through spreadsheets, word processor documents or databases.
